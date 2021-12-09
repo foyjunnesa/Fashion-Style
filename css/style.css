@@ -6,16 +6,6 @@ body {
 .bg-color{
   background-image: url(https://images.pexels.com/photos/1070981/pexels-photo-1070981.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
 }
-/* .search-field {
-  border: none;
-  border-radius: 50px;
-  padding: 5px;
-  outline: none;
-}
-.search-field:hover {
-  outline: none;
-  border: none;
-} */
 
 /* Comfort Shopping */
 .shopping-name{
@@ -25,9 +15,11 @@ body {
  color: white;
  margin-bottom: 50px;
 }
+
 .half-color{
   color: red;
 }
+
 /* hover */
 .shopping-name:hover{
 background-color: white;
@@ -43,10 +35,10 @@ transition: 1.6s;
   width: 281px;
   border-radius: 5px;
   margin: auto;
-  /* margin-left: 350px; */
   margin-top: 40px;
   border-right: none;
 }
+
 .input-name{
   padding: 10px;
   border-radius: 5px;
@@ -82,20 +74,24 @@ transition: 1.6s;
   font-weight: 500px;
   margin: 15px;
 }
+
 .single-product {
   padding: 10px;
   transition: 0.6s;
 }
+
 .single-product:hover {
   box-shadow: 4px 10px 10px black;
   border-radius: 10px;
   border: 4px solid white;
   
 }
+
 .product-image {
   width: 150px;
   height: 150px;
 }
+
 .cart {
   background-color: honeydew;
   width: 350px;
@@ -106,6 +102,7 @@ transition: 1.6s;
   margin-right: 30px;
   position: fixed;
 }
+
 .cart-main {
   background-color: g;
   padding-right: 30px;
@@ -118,27 +115,34 @@ transition: 1.6s;
   border-radius: 5px;
   font-size: 16px;
 }
+
+/* Media Query */
 @media only screen and (max-width: 768px) {
   #all-products {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+
   .cart {
     width: 300px;
-    /* border: 1px solid green; */
     padding: 10px;
     box-shadow: 10px 10px 20px gray;
     border-radius: 5px;
     margin-right: 30px;
     position: fixed;
   }
+
   .cart-main {
     padding-right: 10px;
   }
+
 }
 @media only screen and (max-width: 468px) {
   #all-products {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+
 }
+
+/* ===========*******==========*******The End=========*********========= */

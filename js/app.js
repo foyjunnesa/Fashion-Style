@@ -78,3 +78,6 @@ const updateTotal = () => {
   document.getElementById("total").innerText = grandTotal;
 };
 loadProducts();
+
+
+/* ===========*******==========*******The End=========*********========= */
