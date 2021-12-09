@@ -2,6 +2,10 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
+
+.bg-color{
+  background-image: url(https://images.pexels.com/photos/1070981/pexels-photo-1070981.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
 /* .search-field {
   border: none;
   border-radius: 50px;
@@ -12,37 +16,81 @@ body {
   outline: none;
   border: none;
 } */
+
+/* Comfort Shopping */
+.shopping-name{
+  text-align: center;
+  font-size: 80px;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: white;
+ margin-bottom: 50px;
+}
+.half-color{
+  color: red;
+}
+/* hover */
+.shopping-name:hover{
+background-color: white;
+color: black;
+transition: 1.6s;
+}
+
+/* Search Box Area */
 .search-box {
-  border: 1px solid rgb(3, 118, 211);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 281px;
   border-radius: 5px;
   margin: auto;
-  margin-top: 50px;
+  /* margin-left: 350px; */
+  margin-top: 40px;
   border-right: none;
 }
-.search-button {
-  padding: 10px 50px;
-  border-radius: 25px;
-  margin-left: 20px;
+.input-name{
+  padding: 10px;
+  border-radius: 5px;
 }
+
+.button-name{
+  background-color:red;
+  color: white;
+  padding: 5px 15px;
+  margin-left: 10px;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: 700px;
+}
+
 #all-products {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  /* border: 1px solid black; */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
   text-align: center;
   width: 100%;
   margin: auto;
-  align-items: center;
+  margin-top: 50px;
+   align-items: center;
   justify-content: center;
+}
+
+.product{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(255,255,255) 0%, rgb(201, 46, 46) 35%, rgb(201, 46, 46) 100%);
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: 500px;
+  margin: 15px;
 }
 .single-product {
   padding: 10px;
   transition: 0.6s;
 }
 .single-product:hover {
-  box-shadow: 4px 4px 7px gray;
+  box-shadow: 4px 10px 10px black;
   border-radius: 10px;
-  border: 1px solid cyan;
+  border: 4px solid white;
+  
 }
 .product-image {
   width: 150px;
@@ -61,6 +109,14 @@ body {
 .cart-main {
   background-color: g;
   padding-right: 30px;
+}
+
+.cart-button{
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
 }
 @media only screen and (max-width: 768px) {
   #all-products {

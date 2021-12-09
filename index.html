@@ -17,13 +17,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
 </head>
 
-<body class="bg-success">
+<body class="bg-color">
   <main class="main">
 
+    <h1 class="shopping-name"><span class="half-color">Chri</span>stmas Baz<span class="half-color">aar</span></h1>
+
     <div class="search-box">
-      <input id="input-field" type="text">
-      <button onclick="loadProducts()" type="button" class="btn btn-primary search-button" data-toggle="button"
-        aria-pressed="false" autocomplete="off" id="search-btn">
+      <input class="input-name" id="input-field" type="text">
+      <button onclick="loadProducts()" type="button" class="button-name" data-toggle="button" aria-pressed="false"
+        autocomplete="off" id="search-btn">
         Search
       </button>
     </div>
@@ -32,7 +34,7 @@
     <div class="row">
       <div class="search-btn col-9 col-lg-9 col-sm-7">
         <div id="all-products" class="">
-          <h1></h1>
+
         </div>
       </div>
       <div class="col-md-3 col-lg-3 col-sm-5 cart-main">
@@ -87,7 +89,7 @@
 
           <!-- ========Buy Now======= -->
           <div class="parces text-center">
-            <button class="btn btn-primary text-center">Buy Now</button>
+            <button class="cart-button">Buy Now</button>
           </div>
         </div>
       </div>
